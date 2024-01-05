@@ -1,0 +1,43 @@
+body{
+  background-color:white;
+}
+
+.single-com:hover {
+  box-shadow:
+    5px 0 5px -2px #888888,
+    -5px 0 5px -2px #888888, 
+    0 5px 5px -2px #888888,  
+    0 -5px 5px -2px #888888; 
+}
+
+.image-box{
+  box-shadow:
+  5px 0 5px -2px #888888,
+  -5px 0 5px -2px #888888, 
+  0 5px 5px -2px #888888,  
+  0 -5px 5px -2px #888888; 
+}
+
+.gridRow{
+  grid-column-gap: 1rem;
+}
+
+.Dropdown-toggle::after {
+  display: none;
+}
+
+input[type=ratio]{
+  display: none;
+}
+
+.star{
+  cursor: pointer;
+}
+
+.placeholder-text-color::placeholder {
+  color: black /* replace with your desired color code */
+}
+
+
+
+
